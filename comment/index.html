@@ -435,38 +435,30 @@
       
 <!--   
 
-
-  <div id="lv-container" data-id="city" data-uid="MTAyMC81MjE3NC8yODY1NA==">
-  <script type="text/javascript">
-     (function(d, s) {       
-       var j, e = d.getElementsByTagName(s)[0];       
-       if (typeof LivereTower === 'function') { return; }
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-   </script>
-   <noscript>为正常使用来必力评论功能请激活JavaScript</noscript></div>
  -->
 
 
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<div id="gitalk-container" class="comment"></div> 
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-<script src="/js/md5.min.js"></script>
-<script type="text/javascript">
-	var gitalk = new Gitalk({
-  	clientID: '67c347e0229ff1049a8f40ae976892c150c3f5471fa920d724e8047b994b217b',
-  	clientSecret: '59c729d7523b030b38d6b636e7cbf4d9906181cecd10cf35389530e495089d2a',
-  	repo: 'acgnwang',
-  	owner: 'acgnwang',
-	admin: ['acgnwang'],
-	distractionFreeMode: 'true',
-    id: md5(location.pathname)
-})
-gitalk.render('gitalk-container') 
-</script>
+
+
+  <div id="giteement-ctn"></div>
+    
+      <link rel="stylesheet" href="/assets/default.css">
+      <script src="/assets/giteement.browser.js"></script>
+    
+    <script>
+    var giteement = new Giteement({
+      id: '20181220231348',
+      owner: 'acgnwang',
+      repo: 'acgnwang',
+      backcall_uri: 'https://acgnwang.gitee.io',
+      oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+      oauth: {
+        client_id: '67c347e0229ff1049a8f40ae976892c150c3f5471fa920d724e8047b994b217b',
+        client_secret: '59c729d7523b030b38d6b636e7cbf4d9906181cecd10cf35389530e495089d2a'
+      },
+    })
+    giteement.render('giteement-ctn')
+  </script>
 
 
 
