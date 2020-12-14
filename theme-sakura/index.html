@@ -426,6 +426,26 @@
 
 
 
+  <div id="giteement-ctn"></div>
+    
+      <link rel="stylesheet" href="/assets/default.css">
+      <script src="/assets/giteement.browser.js"></script>
+    
+    <script>
+      var giteement = new Giteement({
+        id: '20190104225325',
+        owner: 'acgnwang',
+        repo: 'acgnwang',
+        backcall_uri: 'https://acgnwang.gitee.io',
+        oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+        oauth: {
+          client_id: '67c347e0229ff1049a8f40ae976892c150c3f5471fa920d724e8047b994b217b',
+          client_secret: '59c729d7523b030b38d6b636e7cbf4d9906181cecd10cf35389530e495089d2a'
+        },
+      })
+      giteement.render('giteement-ctn')
+    </script>
+
 
 
 
