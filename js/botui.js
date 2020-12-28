@@ -111,8 +111,8 @@ function bot_ui_ini() {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是acgn+wang呢？ 🤔",
-                        value: "why-acgnwang"
+                        text: "为什么是chainsR呢？ 🤔",
+                        value: "why-chainsR"
                     }]
                 }).then(function (a) {
                     fourthpart()
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为我老二次元了… "
+                content: "懂的都懂，不懂的也别问… "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "而且我真的是猫控！"
+                    content: "不能因为世界规则众多就厌弃它，成为rule他不香嘛！"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,

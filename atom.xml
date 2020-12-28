@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.acgrule.tk/"/>
-  <updated>2020-12-28T06:06:01.309Z</updated>
+  <updated>2020-12-28T10:11:12.064Z</updated>
   <id>https://blog.acgrule.tk/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.acgrule.tk/posts/a68ad31b.html"/>
     <id>https://blog.acgrule.tk/posts/a68ad31b.html</id>
     <published>2020-12-13T02:51:32.000Z</published>
-    <updated>2020-12-28T06:06:01.309Z</updated>
+    <updated>2020-12-28T10:11:12.064Z</updated>
     
     <summary type="html">
     
@@ -108,9 +108,9 @@
       <category term="技术" scheme="https://blog.acgrule.tk/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="web" scheme="https://blog.acgrule.tk/tags/web/"/>
-    
       <category term="悦读" scheme="https://blog.acgrule.tk/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+      <category term="web" scheme="https://blog.acgrule.tk/tags/web/"/>
     
       <category term="神奇站点" scheme="https://blog.acgrule.tk/tags/%E7%A5%9E%E5%A5%87%E7%AB%99%E7%82%B9/"/>
     
